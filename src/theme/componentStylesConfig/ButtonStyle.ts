@@ -24,7 +24,7 @@ export const ButtonStyle = defineStyleConfig({
       },
 
       _hover: {
-        backgroundColor: mode("green.600", "purple.400")(props),
+        backgroundColor: mode("purple.600", "purple.400")(props),
       },
 
       _active: {

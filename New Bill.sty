@@ -24,3 +24,12 @@ Acc Code     │  Acc Desc                            │ TaxCode   │ Amount  
 6820-0000    │  STATIONARIES AND OFFICE SUPPLIES    │ SR-PNCD   │   14,924.50      │    1,599.05    │ WI 158        │ 133.25 ----Multiple
 5140-0000    │  P&G REQUEST                         │ SR-PNCD   │   2,497.00       │    276.54      │ WI 158        │ 22.29  ----Single
 =============================================================================================================================
+
+
+status [pending, inactive, active]
+
+user login
+    If the status is "pending," the user needs to set a new password.
+    If the status is "active," the user will be directed to the homepage.
+    If the status is "inactive," show an alert
+        Inactive because we cannot delete the user from the database.
